@@ -127,56 +127,107 @@ SWETHA A (212223220114)
 <form method="POST">
     
 {% csrf_token %}
+
 <div class="formelt">
+    
 Radius : <input type="text" name="radius" value="{{r}}"></input>(in m)<br/>
+
 </div>
+
 <div class="formelt">
+    
 Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
+
 </div>
+
 <div class="formelt">
+    
 <input type="submit" value="2Πrh + 2Πr2"></input><br/>
+
 </div>
+
 <div class="formelt">
+    
 Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/>
+
 </div>
+
 </form>
+
 </div>
+
 </div>
+
 </body>
+
 </html>
+
 '''
+
 views.py
+
 '''
+
 from django.shortcuts import render
+
 def surfacearea(request):
+
     context={}
+    
     context['area'] = "0"
+    
     context['r'] = "0"
+    
     context['h'] = "0"
+    
     if request.method == 'POST':
+    
         print("POST method is used")
+        
         r = request.POST.get('radius','0')
+        
         h = request.POST.get('height','0')
+        
         print('request=',request)
+        
         print('radius=',r)
+        
         print('height=',h)
+        
         area = 2 * 3.14 * int(r) * int(h) + 2 * 3.14 * int(r) * int(r)
+        
         context['area'] = area
+        
         context['r'] = r
+        
         context['h'] = h
+        
         print('Area=',area)
+        
     return render(request,'mathapp/math.html',context)
+    
 '''
+
 urls.py
+
 '''
+
 from django.contrib import admin
+
 from django.urls import path
+
 from mathapp import views
+
 urlpatterns = [
+
     path('admin/', admin.site.urls),
+    
     path('surfaceareaofcylinder/',views.surfacearea,name="surfaceareaofcylinder"),
+    
     path('',views.surfacearea,name="surfaceareaofcylinderroot")
+    
 ]
+
 '''
 
 ## SERVER SIDE PROCESSING:
@@ -186,7 +237,8 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-04 111705](https://github.com/aswethaashok/MathServer/assets/149987410/4c842fd9-a61e-49ea-b765-49fe19610fd4)
+![Screenshot 2024-04-04 111846](https://github.com/aswethaashok/MathServer/assets/149987410/af19eee2-baee-4dad-b962-6ed7ffaae081)
+
 
 
 
