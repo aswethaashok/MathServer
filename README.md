@@ -186,7 +186,8 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-03 210418](https://github.com/aswethaashok/MathServer/assets/149987410/3e3d0b09-c1d6-4a44-af54-7849f097955e)
+![Screenshot 2024-04-04 111705](https://github.com/aswethaashok/MathServer/assets/149987410/4c842fd9-a61e-49ea-b765-49fe19610fd4)
+
 
 
 ## RESULT:
