@@ -135,7 +135,7 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-07 162927](https://github.com/aswethaashok/MathServer/assets/149987410/397f0958-72a7-45f3-80f6-fc30d4327183)
+![Screenshot 2024-04-07 164551](https://github.com/aswethaashok/MathServer/assets/149987410/d663f434-4772-4fbe-8f05-3c915cecd30f)
 
 
 ## RESULT:
