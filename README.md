@@ -131,11 +131,14 @@ urlpatterns = [
 ```
 ## SERVER SIDE PROCESSING:
 
-![Screenshot 2024-04-07 162938](https://github.com/aswethaashok/MathServer/assets/149987410/fd1014f4-ed95-48b0-8570-94c5a3c0da6c)
+![Screenshot 2024-04-30 185423](https://github.com/aswethaashok/MathServer/assets/149987410/0f0a5ae7-096c-4cb6-842a-965462365d02)
+
+
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-07 164551](https://github.com/aswethaashok/MathServer/assets/149987410/d663f434-4772-4fbe-8f05-3c915cecd30f)
+![Screenshot 2024-04-30 185222](https://github.com/aswethaashok/MathServer/assets/149987410/32588780-11bd-492f-b476-c8552405722b)
+
 
 
 ## RESULT:
