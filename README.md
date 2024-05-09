@@ -137,7 +137,7 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-30 185222](https://github.com/aswethaashok/MathServer/assets/149987410/32588780-11bd-492f-b476-c8552405722b)
+![image](https://github.com/aswethaashok/MathServer/assets/149987410/9964aeaf-9f91-46ef-8123-23289f13bd52)
 
 
 
